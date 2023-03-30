@@ -1,0 +1,11 @@
+h1{
+    margin: 0;
+}
+.Post{
+    height: 50vh;
+    width: 40vw;
+}
+.List{
+    display: flex;
+    flex-direction: row;
+}
