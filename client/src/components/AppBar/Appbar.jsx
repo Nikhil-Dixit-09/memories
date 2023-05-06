@@ -49,7 +49,6 @@ const Appbar = () => {
                   LogOut
                 </button>
               }
-
             </div>
           </div>
 

@@ -8,15 +8,17 @@ const Posts = ({setCurrentId}) => {
     console.log(Posts);
     return (
     <>
-        <div className='Post'>
+        {/* <div className='Post'> */}
             <div className='List'>
                 {
                     Posts.map((post)=>(
-                        <Post key={post._id} post={post} setCurrentId={setCurrentId} className='single_post'/>
+                        <div className='divv'>
+                            <Post key={post._id} post={post} setCurrentId={setCurrentId} className='single_post'/>
+                        </div>
                     ))
                 }
             </div>
-        </div>
+        {/* </div> */}
         
     </>
     

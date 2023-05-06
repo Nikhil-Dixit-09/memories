@@ -1,16 +1,15 @@
 .card {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     transition: 0.3s;
-    height: auto;
-    width: 18vw;
+    /* width: 235px; */
     /* border: 2px solid black; */
     border-radius: 10px 10px 10px 10px;
     display: flex;
-    padding: 5px;
+    padding: 10px;
+    margin: 10px;
     flex-direction: column;
     background: rgb(9,120,121);
     background: linear-gradient(90deg, rgba(9,120,121,1) 36%, rgba(0,255,222,1) 100%);
-    margin-right: 30px;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);

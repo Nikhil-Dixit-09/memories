@@ -1,5 +1,5 @@
 const jwt=require('jsonwebtoken');
-const axios=require('axios')
+const axios=require('axios');
 //wants to like a post
 //click the like button =>auth middleware(NEXT)=>like constroller...
 const googleSecret="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";
