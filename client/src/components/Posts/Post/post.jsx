@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import like from '../../../Assets/icons8-facebook-like-skin-type-2-48.png'
 import del from '../../../Assets/icons8-delete-document-32.png'
-import edit from '../../../Assets/icons8-pencil-30.png'
+// import edit from '../../../Assets/icons8-pencil-30.png'
 import { useDispatch } from 'react-redux'
 import { deletePost, addLike } from '../../../actions/posts'
 const Post = ({ post, setCurrentId }) => {
@@ -32,12 +32,12 @@ const Post = ({ post, setCurrentId }) => {
                             {moment(post.createdAt).fromNow()}
                         </p>
                     </div>
-                    {(user?.sub === post?.creator || user?.result?._id===post?.creator) &&(
+                    {/* {(user?.sub === post?.creator || user?.result?._id===post?.creator) &&(
                         <div className='edit'>
                             <img src={edit} alt="edit" onClick={() => setCurrentId(post._id)} />
                         </div>
                     )
-                    }
+                    } */}
 
                 </div>
 
